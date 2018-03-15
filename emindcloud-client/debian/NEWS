@@ -1,0 +1,9 @@
+owncloud-client (1.6.0~beta1+dfsg-1) experimental; urgency=medium
+
+  When upgrading from 1.5.X you will face the setupWizard again.
+    * The best advise is, to check, that you know all required credentials
+      before updating.
+    * In background all other previous configured folders will be sync
+      without any visual feedback. Just look at the logWindow.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 22 Apr 2014 22:39:40 +0200

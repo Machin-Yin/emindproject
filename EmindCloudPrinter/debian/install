@@ -1,0 +1,10 @@
+elpadmin/emlpadmin	   /usr/bin/
+cups/emindprinterbackend    /usr/lib/emindprinter/
+cups/emindprinter           /usr/lib/cups/backend/
+org.emindprinter.service    /usr/share/dbus-1/services/
+#org.emindprinter.service usr/share/dbus-1/system*-services/
+#org.emindprinter.conf /etc/dbus-1/system*.d/
+cups/emindprinter.ppd     /usr/share/ppd/emindprinter/
+misc/emindprinter_daemon.desktop   /etc/xdg/autostart/
+
+

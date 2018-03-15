@@ -1,0 +1,2 @@
+#Owncloud-client depends on libowncloudsync, that depends on libocsync
+owncloud-client: binary-or-shlib-defines-rpath usr/bin/owncloud /usr/lib/*/owncloud

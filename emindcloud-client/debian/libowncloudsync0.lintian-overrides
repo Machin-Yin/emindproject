@@ -1,0 +1,2 @@
+#The lib is so unstable, that it makes no sense to ship symbolfiles
+libowncloudsync0: no-symbols-control-file usr/lib/*/libowncloudsync.so.*

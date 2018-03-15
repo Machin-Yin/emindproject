@@ -1,0 +1,9 @@
+In order to use a secure password store, you have to run before you start
+the owncloud client:
+
+* KDE Wallet
+You find this daemon (kwalletd) in the package kde-runtime
+
+* GNOME Keyring
+Till now we have no idea what have to be started to use it outside
+a GNOME environment. If you have a recipe, please send us an email.

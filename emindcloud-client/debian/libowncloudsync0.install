@@ -1,0 +1,2 @@
+usr/lib/*/libowncloudsync.so.*
+usr/lib/*/owncloud/libocsync.so.*

@@ -1,0 +1,370 @@
+emindprinter (1.0.54) unstable; urgency=medium
+
+  * update rmfiles
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 07 Apr 2017 11:54:12 +0800
+
+emindprinter (1.0.53) unstable; urgency=medium
+
+  * bug 2194 & 2193
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 07 Apr 2017 11:26:14 +0800
+
+emindprinter (1.0.52) unstable; urgency=medium
+
+  * <a>[add] add file
+  * update remove file timer
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 29 Mar 2017 10:03:47 +0800
+
+emindprinter (1.0.51) unstable; urgency=medium
+
+  [ Wu Feiyun ]
+  * update desktop to System Category
+  * update desktop to System Category
+  * test
+
+  [ wufeiyun ]
+  * solve print pause problem
+  * update version 1.0.51
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 17 Mar 2017 16:36:45 +0800
+
+emindprinter (1.0.50) unstable; urgency=medium
+
+  * update printer name contains /
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Mon, 13 Mar 2017 11:09:49 +0800
+
+emindprinter (1.0.49) unstable; urgency=medium
+
+  * 1.0.49
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 21:13:34 +0800
+
+emindprinter (1.0.48) unstable; urgency=medium
+
+  * update 1.0.48
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 20:42:15 +0800
+
+emindprinter (1.0.47) unstable; urgency=medium
+
+  * update login error display
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 20:28:14 +0800
+
+emindprinter (1.0.46) unstable; urgency=medium
+
+  * update file transfer connection
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 18:36:45 +0800
+
+emindprinter (1.0.45) unstable; urgency=medium
+
+  * update file transfer connection
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 18:31:54 +0800
+
+emindprinter (1.0.44) unstable; urgency=medium
+
+  * update postrm
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 07 Mar 2017 17:53:08 +0800
+
+emindprinter (1.0.43) unstable; urgency=medium
+
+  * update postrm
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 07 Mar 2017 17:26:31 +0800
+
+emindprinter (1.0.42) unstable; urgency=medium
+
+  * update 1.0.42 solved multi client causing memory  problem
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 07 Mar 2017 16:55:58 +0800
+
+emindprinter (1.0.41) unstable; urgency=medium
+
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Mon, 06 Mar 2017 14:00:40 +0800
+
+emindprinter (1.0.40) unstable; urgency=medium
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Mon, 06 Mar 2017 09:50:36 +0800
+
+emindprinter (1.0.39) unstable; urgency=medium
+
+  * Revert "sadsad"
+    This reverts commit f1dcbd31df34ccc1f1cca9c2928182dd207eccb8.
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 21:38:43 +0800
+
+emindprinter (1.0.38) unstable; urgency=medium
+
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 19:53:23 +0800
+
+emindprinter (1.0.37) unstable; urgency=medium
+
+  * test
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 19:29:35 +0800
+
+emindprinter (1.0.36) unstable; urgency=medium
+
+  * del clean  
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 15:25:21 +0800
+
+emindprinter (1.0.35) unstable; urgency=medium
+
+  * update 1.0.35
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 15:01:28 +0800
+
+emindprinter (1.0.34) unstable; urgency=medium
+
+  * delete emindprinter/debian
+  * add translations/zh_CN_1.qm
+  * test
+  * update test
+  * update version 1.0.34 delete busyindicator
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 14:49:08 +0800
+
+emindprinter (1.0.33) unstable; urgency=medium
+
+  * test32
+  * test4
+  * test4
+  * test5
+  * update translation qm
+  * update translation qm
+  * update version 1.0.32
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 13:48:08 +0800
+
+emindprinter (1.0.32) unstable; urgency=medium
+
+  * update support multiple printer server connections
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Thu, 02 Mar 2017 17:53:56 +0800
+
+emindprinter (1.0.31) unstable; urgency=medium
+
+  * update postrm
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Thu, 23 Feb 2017 15:14:59 +0800
+
+emindprinter (1.0.30) unstable; urgency=medium
+
+  * test
+  * update translations
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Thu, 23 Feb 2017 15:08:20 +0800
+
+emindprinter (1.0.29) unstable; urgency=medium
+
+  * update version 1.0.29
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Thu, 23 Feb 2017 10:09:26 +0800
+
+emindprinter (1.0.28) unstable; urgency=medium
+
+  * update change server
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 22 Feb 2017 18:45:33 +0800
+
+emindprinter (1.0.27) unstable; urgency=medium
+
+  * update
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 22 Feb 2017 18:18:31 +0800
+
+emindprinter (1.0.26) unstable; urgency=medium
+
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 17 Feb 2017 20:20:15 +0800
+
+emindprinter (1.0.25) unstable; urgency=medium
+
+  * update postrm
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 17 Feb 2017 19:33:38 +0800
+
+emindprinter (1.0.24) unstable; urgency=medium
+
+  * update postrm
+  * add multiple page printing
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 15 Feb 2017 09:56:52 +0800
+
+emindprinter (1.0.23) unstable; urgency=medium
+
+  * update
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 10 Feb 2017 18:25:00 +0800
+
+emindprinter (1.0.22) unstable; urgency=medium
+
+  * update
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 10 Feb 2017 18:11:32 +0800
+
+emindprinter (1.0.21) unstable; urgency=medium
+
+  * resolve reconnect problem
+
+emindprinter (1.0.20) unstable; urgency=medium
+
+  * update connection restore
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Thu, 09 Feb 2017 10:45:01 +0800
+
+emindprinter (1.0.19) unstable; urgency=medium
+
+  * add save connection
+  * add save connection
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 08 Feb 2017 19:33:44 +0800
+
+emindprinter (1.0.18) unstable; urgency=medium
+
+  * solve no.1433 bug
+  * add singleton application
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 22 Jan 2017 18:09:44 +0800
+
+emindprinter (1.0.17) unstable; urgency=medium
+
+  * update running desktop icon no printer add to system-config
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 22 Jan 2017 16:35:50 +0800
+
+emindprinter (1.0.16) unstable; urgency=medium
+
+  * revert close event
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 22 Jan 2017 15:22:33 +0800
+
+emindprinter (1.0.15) unstable; urgency=medium
+
+  * when window close to run in the background
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 22 Jan 2017 11:16:20 +0800
+
+emindprinter (1.0.14) unstable; urgency=medium
+
+  * test postinst
+  * test postinst
+  * update postinst
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 19:02:06 +0800
+
+emindprinter (1.0.13) unstable; urgency=medium
+
+  * update backend privilege
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 17:43:22 +0800
+
+emindprinter (1.0.12) unstable; urgency=medium
+
+  * update dbus
+  * update postinst file
+  * update postem file
+  * update postrm file
+  * update backend file
+  * update backend
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 17:16:43 +0800
+
+emindprinter (1.0.11) unstable; urgency=medium
+
+  * update readme
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 15:12:47 +0800
+
+emindprinter (1.0.10) unstable; urgency=medium
+
+  * update desktop image
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 15:04:27 +0800
+
+emindprinter (1.0.9) unstable; urgency=medium
+
+  * update control qml-module-qtquick-dialogs
+  * update control
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 15:03:01 +0800
+
+emindprinter (1.0.8) unstable; urgency=medium
+
+  * update Makefile  update control libqt5core
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 20 Jan 2017 13:18:58 +0800
+
+emindprinter (1.0.7) unstable; urgency=medium
+
+  * any to amd64
+
+ -- Wu Feiyun <wufeiyun@emindsoft.com.cn>  Mon, 16 Jan 2017 18:59:02 +0800
+
+emindprinter (1.0.6) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * update Makefile
+
+  [ Wu Feiyun ]
+  * update
+  * update makefile
+
+ -- Wu Feiyun <wufeiyun@emindsoft.com.cn>  Mon, 16 Jan 2017 18:39:05 +0800
+
+emindprinter (1.0.5) unstable; urgency=medium
+
+  * add qml-module-qtquick-controls
+
+ -- Wu Feiyun <wufeiyun@emindsoft.com.cn>  Wed, 11 Jan 2017 18:58:47 +0800
+
+emindprinter (1.0.4) unstable; urgency=medium
+
+  [ Wu Bo ]
+  * update veversion
+
+  [ wfy ]
+
+ -- wfy <wfy@localhost>  Wed, 11 Jan 2017 18:40:59 +0800
+
+emindprinter (1.0.3) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+  [ wubo ]
+
+ -- wubo <wufeiyun@unknown>  Wed, 11 Jan 2017 16:30:10 +0800
+emindprinter (1.0.2) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+  [ wubo ]
+
+ -- wubo <wufeiyun@unknown>  Wed, 11 Jan 2017 16:30:10 +0800
+emindprinter (1.0.1) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+  [ wubo ]
+
+ -- wubo <wufeiyun@unknown>  Wed, 11 Jan 2017 16:30:10 +0800

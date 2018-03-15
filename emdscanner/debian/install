@@ -1,0 +1,4 @@
+translations         /usr/share/emindscanner/
+img    /usr/share/emindscanner/
+misc/emindscanner.desktop   /usr/share/applications/
+emindscanner    /usr/bin/

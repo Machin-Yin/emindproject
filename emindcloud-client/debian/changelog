@@ -1,0 +1,526 @@
+owncloud-client (2.2.2+dfsg.2) UNRELEASED; urgency=medium
+
+  [ sufanjiang ]
+  * <R>[debian/gbp.conf]:remove
+
+  [ Cui Xueting ]
+  * add patch 0010
+
+ -- Cui Xueting <cuixueting@emindsoft.com.cn>  Thu, 25 Aug 2016 10:18:31 +0800
+
+owncloud-client (2.2.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Release to unstable, the only reason to push to experimental that this
+    needs to go through the NEW queue.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Fri, 24 Jun 2016 18:28:04 +0200
+
+owncloud-client (2.2.1+dfsg-2) experimental; urgency=medium
+
+  * Add nemo-owncloud package.
+  * Split data part out of nautilis-owncloud into owncloud-client-data.
+  * Add texlive-generic-extra to build to unstable again
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 21 Jun 2016 13:22:09 +0200
+
+owncloud-client (2.2.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Delete upstream approved patches
+  * Update patch hunks
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Wed, 08 Jun 2016 11:27:13 +0200
+
+owncloud-client (2.2.0+dfsg-1) unstable; urgency=medium
+
+  * New stable upstream - release to unstable.
+  * Update copyright file
+  * Update patches:
+    - remove patch that was applied upstream (fix_typo.patch)
+    - update other patch (upstream changed the surrounding a little bit)
+  * Add patch to keep tests running without a XServer (approved upsteram).
+  * Bump to Standards-Version 3.9.8
+    - install additional documentation provided by owncloud-client-doc 
+      under /usr/share/doc/owncloud-client
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 12 May 2016 18:22:31 +0200
+
+owncloud-client (2.1.1+dfsg-2) experimental; urgency=medium
+
+  * Added dolphin plugin.
+  * Updated VCS links to secure protocol
+  * Added nautilus to Depends for natuilus plugin
+    the plugin only makes sense with nautilus installed
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 25 Feb 2016 23:47:37 +0100
+
+owncloud-client (2.1.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Updated patch hunks
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Wed, 17 Feb 2016 11:00:56 +0100
+
+owncloud-client (2.1.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Delete non used patch: 004-shell_integration_copyright
+  * Updated patch hunks
+  * Updated patches (small updates) 
+  * Remove unnessary lintian-override
+  * Updated copyright file
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 15 Dec 2015 18:48:08 +0100
+
+owncloud-client (2.0.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update patch hunks
+  * Added patch to use system build flags.
+  * Added override hardening-no-fortify-functions for libowncloudsync0
+  * Updated debian/rules:
+    - use /usr/share/dpkg/default.mk
+    - remove own hacks to get debian version
+    - use hardening=+all
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 24 Oct 2015 03:16:40 +0200
+
+owncloud-client (2.0.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (release to unstable).
+  * Deleted upstream applied patch.
+  * Updated patch hunks.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Fri, 28 Aug 2015 11:35:16 +0200
+
+owncloud-client (2.0.0~rc1+dfsg-2) experimental; urgency=medium
+
+  * Added upstream patch for build on 32bit systems
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Mon, 24 Aug 2015 19:24:26 +0200
+
+owncloud-client (2.0.0~rc1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Updated patch hunks
+  * Reproducible:
+    - optipng images before sending them to pdflatex
+    - Added patch to get reproducible to get rid of time in C++
+  * Added optipng to build-deps
+  * Removed unused lintian override for /usr/bin/owncloud
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 22 Aug 2015 16:36:41 +0200
+
+owncloud-client (2.0.0~beta1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Patches:
+    - Refresh 0001-disable-updatecheck.patch
+    - Delete patches, that came from upstream
+    - update patch hunks
+  * Updated copyright
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 11 Aug 2015 14:52:00 +0200
+
+owncloud-client (1.8.4+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Updated copyright file.
+  * Update patch hunks.
+  * Delete upstream applied patch.
+  * Build-deps: remove libneon27-gnutls-dev, with qtbase 5.4.x in
+    unstable/testing, we don't need neon anymore
+  * Added a patch to pass all tests (backported from upstream)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 08 Aug 2015 14:28:51 +0200
+
+owncloud-client (1.8.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (release to unstable)
+  * d/watch: Do not add the file extension to the version number.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 07 May 2015 16:41:54 +0200
+
+owncloud-client (1.8.1~rc2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * make build with GCC-5 (Closes: 778052)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 07 May 2015 01:26:05 +0200
+
+owncloud-client (1.8.1~rc1+dfsg-1) experimental; urgency=medium
+
+  * New upstream realease.
+  * Updated watchfile to match xz files too.
+  * Update patch hunks.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Fri, 01 May 2015 14:14:32 +0200
+
+owncloud-client (1.8.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Rename mirall -> owncloudclient:
+    - Updated download url.
+    - Updated patches.
+    - Updated documentation.
+    - Updated copyright file.
+  * Added libssl as build-dep (upstream dependency).
+  * Added new upstream signing key.
+  * Updated copyright file.
+  * Removed httpbf.* is not more needed, because libneon is not needed.
+  * Added patch: Move config files to /etc/owncloud-client.
+  * Added debhelperscript to move configfile.
+  * Added patch: Use own dir for translations. (Closes: #780057)
+  * Point help url to stretch and not jessie anymore.
+  * Updated patches (hunk updates).
+  * Added upstream patch to fix python syntax (pull request #2997).
+  * Removed unnessary lintian override:
+    - owncloudcmd is free of hardening-no-fortify-functions.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 24 Mar 2015 22:51:58 +0100
+
+owncloud-client (1.7.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * removed upstream applied patches
+  * update hunks for patches
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 20 Dec 2014 17:28:39 +0100
+
+owncloud-client (1.7.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Updated copyright file
+  * Removed copy of sqlite3
+  * Updated Vcs-Browser field
+  * Bump to Standards-Version 3.9.6
+  * Added patch for make nautilus script be python3 compatible
+  * Using dversionmangle not uversionmangle for debian/watch
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Mon, 10 Nov 2014 20:38:50 +0100
+
+owncloud-client (1.7.0~beta1+dfsg-2) experimental; urgency=medium
+
+  * Added package for file synchronization:
+    - nautilus-owncloud
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 30 Aug 2014 01:44:48 +0200
+
+owncloud-client (1.7.0~beta1+dfsg-1) experimental; urgency=medium
+
+  [ David Prévot ]
+  * Drop now useless dversionmangle
+  * Point to Jessie’s package instead of Sid’s
+
+  [ Sandro Knauß ]
+  * New upstream release
+  * Updated watch file to new page
+  * Updated copyright file
+  * Deleted shell_integration/(windows|MacOSX) due to copyright problems
+    - Added patch to strip out deleted directories
+      0004-shell_integration_copyright.patch
+  * Updated 0001-disable-updatecheck.patch (only hunk update)
+  * Updated 0002-debian_version.patch
+  * Added patch to strip out deleted directories
+  * restructure debian/rules
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 30 Aug 2014 00:46:53 +0200
+
+owncloud-client (1.6.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Removed libegl1-mesa-dev from build-deps (was only added for workaround)
+  * Added patch to skip specific failing tests on BSD. (Mitigates: #750903)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 03 Aug 2014 22:34:57 +0200
+
+owncloud-client (1.6.1+dfsg-1) unstable; urgency=medium
+
+  [ David Prévot ]
+  * No tests if DEB_BUILD_OPTIONS contains nocheck
+
+  [ Sandro Knauß ]
+  * New upstream release
+  * Update 0002-debian_version.patch hunks
+  * Added libegl1-mesa-dev to build dependencies as workaround for QTBUG-39859.
+    Thanks to Alf Gaida for the patch (Closes: #753255)
+  * Made libowncloudsync0.lintian-overrides be aware of version of
+    libowncloudsync.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 01 Jul 2014 12:17:49 +0200
+
+owncloud-client (1.6.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream stable release
+  * Updated watch file to track for stable and testing releases
+  * Updated 0001-disable-updatecheck.patch (only offset changes)
+  * Updated copyright
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 31 May 2014 04:20:50 +0200
+
+owncloud-client (1.6.0~rc2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release
+  * Make lintian-overrides multiarch
+  * Removed upstream applied patches
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 17 May 2014 21:37:28 +0200
+
+owncloud-client (1.6.0~beta2+dfsg-2) experimental; urgency=medium
+
+  * Run the tests with --max-parallel=1 to fix FTBFS. (Closes: #746278)
+    Thanks Dmitry Shachnev
+  * Added patch to make doc parts installable.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 08 May 2014 02:07:35 +0200
+
+owncloud-client (1.6.0~beta2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release
+  * Added freebsd.patch
+  * Moved libocsync to private location
+  * Moved logic from patch 0002-create-manpage.patch -> debian/rules
+  * Added dep3 header to freebsd.patch
+  * Update lintian overrides
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Wed, 07 May 2014 22:19:33 +0200
+
+owncloud-client (1.6.0~beta1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release
+  * Updated build-deps to build with QT5
+  * Updated patches
+  * Updated lintian-overrides
+  * Updated copyright
+  * Updated Dependencies
+  * Added parameter to debian/rules to link only needed dependencies.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 22 Apr 2014 20:12:43 +0200
+
+owncloud-client (1.5.3+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated lintian-overrides
+  * Added gpg signaturetest to watch file
+  * Added patch to fix segault (Closes: #742064)
+  * Removed Recommends (are set by qtkeychain)
+  * Used Files-Exclude feature instead of repack script
+  * Added README.Debian
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 23 Mar 2014 23:20:57 +0100
+
+owncloud-client (1.5.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Removed backported patches
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 27 Feb 2014 20:50:22 +0100
+
+owncloud-client (1.5.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated 0001-disable-updatecheck.patch
+  * Added patches for a correct copyright (cherry-pick from upstream)
+  * Updated debian/copyright
+  * Updated build-deps:
+    - Added libcmocka-dev
+    - Added libhttp-dav-perl
+  * Added kwalletmanager as recommended to have crypted password support
+  * Removed old packages (mirall-* packages)
+  * Added libowncloudsync-dev package
+  * Added replace/break for transition of ocsync into owncloud-client:
+    - libocsnyc -> libowncloudsync
+    - libocsync-dev -> libowncloudsync-dev
+  * Deleted debian/libowncloudsync0.symbols - lib is too unstable
+  * Removed autopkgtest (Closes: #735535)
+  * Added debian version to info box
+  * Used d/clean to delete unneeded files:
+    - Use GNUInstallDirs.cmake from debian (Closes: #738512)
+    - Deleted included copy of libhttp-dav-perl
+    - Use debian standard cmake for OpenSSL and CheckPrototypeDefinition
+  * lintian-overrides:
+    - Added owncloud-client-cmd: hardening-no-fortify-functions
+  * debian/rules: ignoring displaying manpages as not installed
+  * debian/watch: watching for https instead of http
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 22 Feb 2014 00:19:22 +0100
+
+owncloud-client (1.5.0+dfsg-4) unstable; urgency=medium
+
+  * Added libqt4-sql-sqlite as dependency (Closes: #733749)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 31 Dec 2013 17:55:47 +0100
+
+owncloud-client (1.5.0+dfsg-3) unstable; urgency=medium
+
+  [ David Prévot ]
+  * Fixed tests filename
+
+  [ Sandro Knauß ]
+  * Added patch to respect XDG_CONFIG_HOME env variable
+  * Fix the testsuite (Closes: #733306)
+  * Updated debian/libowncloudsync0.symbols
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 31 Dec 2013 02:17:37 +0100
+
+owncloud-client (1.5.0+dfsg-2) unstable; urgency=medium
+
+  * Activated unit tests
+  * Updated debian/libowncloudsync0.symbols for all archs (Closes: #733048)
+  * Do not publish beta symbols
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Fri, 27 Dec 2013 19:50:08 +0100
+
+owncloud-client (1.5.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream stable release
+  * Released stable version to unstable
+  * Updated watch file to track stable version of owncloud-client
+  * Removed applied patch: 0003-Add-man-page-for-owncloudcmd.patch
+  * Updated build dependencies
+  * Added hardening support the standard way
+  * Updated dependencies for libowncloudsync0
+  * Updated debian/libowncloudsync0.symbols
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 22 Dec 2013 23:47:12 +0100
+
+owncloud-client (1.5.0~beta2+dfsg-1) experimental; urgency=low
+
+  * New upstream release
+  * Adding the new cmd client
+  * Updated debian/watch to match on testing versions
+  * Updated build dependencies
+  * Updated disable-updatecheck.patch
+  * Updated build deps
+  * Removed patches (applied upstream):
+    - freebsd-libinotify.patch
+    - freebsd-statvfs64.patch
+    - utility-platform.patch
+  * Updated debian/libowncloudsync0.symbols (Closes: #731525)
+  * Updated debian/changelog
+  * Bumped Standards Version
+  * Removed lintian-overrides
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 08 Dec 2013 22:08:43 +0100
+
+owncloud-client (1.4.2+dfsg-2) unstable; urgency=low
+
+  * Updated debian/watch
+  * Updated debian/libowncloudsync0.symbols
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 09 Nov 2013 17:01:43 +0100
+
+owncloud-client (1.4.2+dfsg-1) unstable; urgency=low
+
+  * New upstream release
+  * Added patches:
+    - create-manpage.patch
+    - freebsd-libinotify.patch
+    - freebsd-statvfs64.patch
+    - utility-platform.patch
+  * Added freebsd support
+  * Updated version dependency for ocsync
+  * Updated debian/libowncloudsync0.symbols
+  * Updated lintian-overrides: hardening-no-fortify-functions
+  * Removed "--with kde" in debian/rules
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 22 Oct 2013 13:36:09 +0200
+
+owncloud-client (1.4.1+dfsg-2) unstable; urgency=low
+
+  * Fix FTBS for runs with binary-only
+  * Added python-sphinx back to build-deps
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 29 Sep 2013 00:52:30 +0200
+
+owncloud-client (1.4.1+dfsg-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated version dependency for ocsync
+  * Updated debian/libowncloudsync0.symbols
+  * Updated lintian-overrides: hardening-no-fortify-functions
+  * Updated copyright file
+  * Removed patches (applied upstream):
+    - dont-ship-doc_scripts.patch
+    - fix-empty-ocdir.patch
+  * "Show Desktop Notifications" setting inoperant (Closes: #723833)
+  * Makes build-arch faster
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 26 Sep 2013 19:56:16 +0200
+
+owncloud-client (1.4.0+dfsg-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated build-deps:
+    - Removed useless version dependency for python-sphinx
+    - Updated version dependecy for ocsync
+    - Added libqtwebkit-dev
+  * Updated debian/libowncloudsync0.symbols
+  * Updated lintian-overrides: hardening-no-fortify-functions
+  * Updated debian/copyright
+  * owncloud-client package now cares about config dir instead of mirall-l10n
+  * Renamed config dir /etc/owncloud -> /etc/ownCloud
+  * Renamed packages:
+    - mirall-l10n -> owncloud-client-l10n
+    - mirall-doc -> owncloud-client-doc
+  * Added transitional packages:
+    - mirall-l10n
+    - mirall-doc
+  * Removed patches (applied upstream):
+    - desktop-entry-lacks-keywords-entry.patch
+    - doc-parallel.patch
+  * Added patches:
+    - disable-updatecheck.patch (Closes: #721341)
+    - fix-empty-ocdir.patch
+    - dont-ship-doc_scripts.patch
+  * Removed unused configure parameters in debian/rules
+  * Added PDF alternative to mirall-doc.doc-base
+  * FTBFS w/ocsync 0.90: csync_progress_callback API changed (Closes: #722623)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Wed, 11 Sep 2013 21:53:01 +0200
+
+owncloud-client (1.3.0+dfsg-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Don't run dh_sphinxdoc in an arch-dep build. (Closes: #719176)
+
+ -- Iain Lane <laney@debian.org>  Sat, 07 Sep 2013 17:41:01 +0000
+
+owncloud-client (1.3.0+dfsg-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated version dependency for ocsync
+  * Updated debian/libowncloudsync0.symbols
+  * Updated lintian-overrides: hardening-no-fortify-functions
+  * Make sphinx documentation compile in parallel (Closes: #719178)
+  * Fixed: desktop-entry-lacks-keywords-entry lintian warning
+  * Dropped mirall package (upstream has dropped target)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Thu, 15 Aug 2013 22:08:41 +0200
+
+owncloud-client (1.2.5+dfsg-1) unstable; urgency=low
+
+  * Initial release for debian. (Closes: #692872)
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Tue, 14 May 2013 03:06:42 +0200
+
+owncloud-client (1.0.5+repack1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release LP: #1053449
+
+ -- Matthew Fischer <matthew.fischer@ubuntu.com>  Mon, 01 Oct 2012 20:07:46 -0600
+
+owncloud-client (1.0.4+repack1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 13 Aug 2012 17:07:22 +0100
+
+owncloud-client (1.0.3+repack1-0ubuntu1) quantal; urgency=low
+
+  * Initial package
+  * Remove admin/ directory which had unused binary files in it
+  * Add kubuntu_01_sysconf_dir.diff to fix install dir
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jul 2012 17:43:04 +0100

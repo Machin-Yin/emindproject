@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/tray.png</file>
+        <file>image/desk.ico</file>
+        <file>lang_zh.qm</file>
+        <file>mystyle.qss</file>
+    </qresource>
+</RCC>

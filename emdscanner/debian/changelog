@@ -1,0 +1,90 @@
+emindprinter (1.0.45) unstable; urgency=medium
+
+  [ Wu Feiyun ]
+  * update desktop location
+  * add pro.user file
+  * update printer add button state
+
+  [ wufeiyun ]
+  * update user profile of project
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 17 Mar 2017 16:45:34 +0800
+
+emindprinter (1.0.44) unstable; urgency=medium
+
+  * update Canon LBP7010C/7018C to Canon_LBP7010C*7018C
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Mon, 13 Mar 2017 11:22:24 +0800
+
+emindprinter (1.0.43) unstable; urgency=medium
+
+  * update 1.0.43
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 20:33:21 +0800
+
+emindprinter (1.0.42) unstable; urgency=medium
+
+  * update buttonnext state
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 19:52:16 +0800
+
+emindprinter (1.0.41) unstable; urgency=medium
+
+  * update daemon
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Sun, 12 Mar 2017 18:53:23 +0800
+
+emindprinter (1.0.40) unstable; urgency=medium
+
+  * update errtxt version 1.0.40
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 07 Mar 2017 19:20:30 +0800
+
+emindprinter (1.0.39) unstable; urgency=medium
+
+  * update start program after installed version 1.0.39
+
+
+emindprinter (1.0.38) unstable; urgency=medium
+
+  * 1.0.38
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 20:57:16 +0800
+
+emindprinter (1.0.37) unstable; urgency=medium
+
+  * test version 1.0.37
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 20:50:28 +0800
+
+emindprinter (1.0.36) unstable; urgency=medium
+
+  * test
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 20:50:28 +0800
+
+emindprinter (1.0.35) unstable; urgency=medium
+
+  * add #include <QQmlEngi>
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 20:24:03 +0800
+
+emindprinter (1.0.34) unstable; urgency=medium
+
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 20:07:04 +0800
+
+emindprinter (1.0.33) unstable; urgency=medium
+
+  * test
+  * test
+  * core
+  * test
+  * test
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 03 Mar 2017 19:43:49 +0800
+
+emindprinter (1.0.32) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- wufeiyun <wufeiyun@unknown>  Fri, 03 Mar 2017 18:21:39 +0800

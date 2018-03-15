@@ -1,0 +1,4 @@
+etc/owncloud-client
+usr/bin/owncloud
+usr/share/applications/owncloud.desktop
+usr/share/icons/*/*/apps/owncloud.png

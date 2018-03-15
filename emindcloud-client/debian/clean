@@ -1,0 +1,4 @@
+cmake/modules/CheckPrototypeDefinition.*
+cmake/modules/FindOpenSSLCross.cmake
+cmake/modules/GNUInstallDirs.cmake
+csync/tests/ownCloud/HTTP/DAV.pm

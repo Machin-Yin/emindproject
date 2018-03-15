@@ -1,0 +1,4 @@
+usr/lib/*/owncloud/libownclouddolphinpluginhelper.so
+usr/lib/*/qt5/plugins/kf5/overlayicon/ownclouddolphinoverlayplugin.so
+usr/lib/*/qt5/plugins/ownclouddolphinactionplugin.so
+usr/share/kservices5/ownclouddolphinactionplugin.desktop

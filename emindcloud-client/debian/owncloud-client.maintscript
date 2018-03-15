@@ -1,0 +1,1 @@
+mv_conffile /etc/ownCloud/sync-exclude.lst /etc/owncloud-client/sync-exclude.lst 1.8.0+dfsg-1~

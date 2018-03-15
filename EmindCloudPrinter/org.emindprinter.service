@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.emindprinter
+Exec=/usr/bin/emindprinter-daemon
+

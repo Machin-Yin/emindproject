@@ -1,0 +1,3 @@
+version=3
+options=dversionmangle=s/\+dfsg//,uversionmangle=s/rc/~rc/;s/beta/~beta/;s/alpha/~alpha/,repacksuffix=+dfsg,pgpsigurlmangle=s/$/.asc/ \
+https://owncloud.org/install https?://download.owncloud.com/desktop/\w+/owncloudclient-(.*)\.tar\.(?:bz2|xz)

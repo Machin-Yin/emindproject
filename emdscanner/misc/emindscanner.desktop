@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=emindprinter
+Name[zh_CN]=一铭云打印
+Comment=Emindcloud printer
+Comment[zh_CN]=快速访问一铭云打印客户端
+Exec=/usr/bin/emindprinter
+Icon=/usr/share/emindscanner/img/scanner.png
+Terminal=false
+Categories=System;

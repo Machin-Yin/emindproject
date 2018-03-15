@@ -1,0 +1,201 @@
+Source: owncloud-client
+Section: net
+Priority: optional
+Maintainer: ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>
+Uploaders: Sandro Knauß <bugs@sandroknauss.de>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               dh-python,
+               extra-cmake-modules (>= 5.16),
+               kdelibs5-dev,
+               kio-dev,
+               libcmocka-dev,
+               libhttp-dav-perl,
+               libinotify-dev [kfreebsd-any],
+               libqt5webkit5-dev,
+               libsqlite3-dev,
+               libssl-dev (>> 1.0.0),
+               optipng,
+               pkg-kde-tools,
+               python-sphinx | python3-sphinx,
+               python3-all,
+               qt5keychain-dev,
+               qtdeclarative5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
+Build-Depends-Indep: texlive-fonts-recommended,
+                     texlive-generic-extra,
+                     texlive-latex-extra,
+                     texlive-latex-recommended,
+                     xsltproc
+X-Python3-Version: >= 3.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-owncloud/owncloud-client.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-owncloud/owncloud-client.git
+Standards-Version: 3.9.8
+Homepage: http://owncloud.org/sync-clients/
+
+Package: owncloud-client
+Architecture: any
+Depends: libowncloudsync0 (= ${binary:Version}),
+         libqt5sql5-sqlite,
+         owncloud-client-l10n,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: folder synchronization with an ownCloud server - GUI
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ owncloud-client provides the graphical client specialising in
+ synchronizing with cloud storage provided by ownCloud.
+
+Package: owncloud-client-doc
+Architecture: all
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
+Section: doc
+Description: ownCloudSync folder synchronization - documentation
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This package provides the documentation.
+
+Package: libowncloudsync0
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Replaces: libocsync0
+Breaks: libocsync0
+Section: libs
+Description: ownCloudSync folder synchronization - libraries
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This library is based on CSync, but adds functions that are missing in
+ CSync and more specific to graphical clients.
+
+Package: libowncloudsync-dev
+Architecture: any
+Depends: libowncloudsync0 (= ${binary:Version}), ${misc:Depends}
+Replaces: libocsync-dev
+Breaks: libocsync-dev
+Section: libdevel
+Description: development files for owncloudsync
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This package contains the library development files.
+
+Package: owncloud-client-data
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: nautilus-owncloud (<< 2.2.1+dfsg-2)
+Breaks: nautilus-owncloud (<< 2.2.1+dfsg-2)
+Description: ownCloudSync folder synchronization - shared data
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This package provides data that is shared between different packages.
+
+Package: owncloud-client-l10n
+Architecture: all
+Depends: ${misc:Depends}
+Section: localization
+Description: ownCloudSync folder synchronization - localization
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This package provides the localization.
+
+Package: owncloud-client-cmd
+Architecture: any
+Depends: libowncloudsync0 (= ${binary:Version}),
+         libqt5sql5-sqlite,
+         owncloud-client-l10n,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: folder synchronization with an ownCloud server - cmd client
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ This package provides the command line client specialising in
+ synchronizing with cloud storage provided by ownCloud.
+
+Package: dolphin-owncloud
+Architecture: any
+Section: kde
+Depends: dolphin (>= 4:15.12.1),
+         libowncloudsync0 (= ${binary:Version}),
+         owncloud-client,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Enhances: dolphin
+Description: ownCloud integration for Dolphin
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ Dolphin ownCloud is an extension that integrates the ownCloud web service with
+ your Plasma Desktop (KDE).
+
+Package: nautilus-owncloud
+Architecture: all
+Section: gnome
+Depends: nautilus,
+         owncloud-client (<< ${source:Version}.1~),
+         owncloud-client (>= ${source:Version}),
+         owncloud-client-data,
+         python-nautilus,
+         ${misc:Depends},
+         ${python3:Depends}
+Suggests: nautilus-script-manager
+Enhances: nautilus
+Description: ownCloud integration for Nautilus
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ Nautilus ownCloud is an extension that integrates the ownCloud web service with
+ your GNOME Desktop.
+
+Package: nemo-owncloud
+Architecture: all
+Depends: nemo,
+         nemo-python,
+         owncloud-client (<< ${source:Version}.1~),
+         owncloud-client (>= ${source:Version}),
+         owncloud-client-data,
+         ${misc:Depends},
+         ${python3:Depends}
+Enhances: nemo
+Description: ownCloud integration for Nemo
+ The ownCloudSync system lets you always have your latest files wherever
+ you are. Just specify one or more folders on the local machine to and a server
+ to synchronize to. You can configure more computers to synchronize to the same
+ server and any change to the files on one computer will silently and reliably
+ flow across to every other.
+ .
+ Nemo ownCloud is an extension that integrates the ownCloud web service with
+ your Cinnamon Desktop.
